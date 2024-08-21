@@ -1,11 +1,12 @@
 import React from "react";
-import { Hero, Features } from "../components";
+import { Hero, Features, Blog } from "../components";
 
 const Landing = () => {
   return (
     <>
       <Hero />
       <Features />
+      <Blog />
     </>
   );
 };
