@@ -6,6 +6,8 @@ import HeroImg from "../images/heroImg.jpg";
 import heroPic1 from "../images/heroPic1.jpg";
 import heroPic2 from "../images/heroPic2.jpg";
 import heroPic3 from "../images/heroPic3.jpg";
+import aboutHero from "../images/abouthero.jpg";
+import TeamIcon from "../images/TeamIcon.jpg";
 
 export {
   cricket,
@@ -16,4 +18,6 @@ export {
   heroPic1,
   heroPic2,
   heroPic3,
+  aboutHero,
+  TeamIcon,
 };

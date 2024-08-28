@@ -25,6 +25,9 @@ export default {
         darkGreen90: "#DDEDE8",
         body: "#F1F1F3",
       },
+      backgroundImage: {
+        overview: "url('/src/assets/images/AbstractDesign.jpg')",
+      },
     },
   },
   plugins: [require("daisyui")],
