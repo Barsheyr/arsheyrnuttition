@@ -208,3 +208,33 @@ export const CompanyAchievements = [
     P1: "Nutritionist has established partnerships with respected nutritionists, dietitians, and health experts to ensure that our clients receive the highest quality guidance and support.",
   },
 ];
+
+export const pricingCards = [
+  {
+    id: "1",
+    title: "Basic Plan",
+    amount: "$49",
+    MAmount: "$5",
+    text: "Up to 50% off on Yearly Plan",
+    Description:
+      "Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.",
+  },
+  {
+    id: "2",
+    title: "Premium Plan",
+    amount: "$79",
+    MAmount: "$15",
+    text: "Up to 50% off on Yearly Plan",
+    Description:
+      "Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you'll receive video consultations, priority support, and personalized recipe recommendations.",
+  },
+  {
+    id: "3",
+    title: "Ultimate Plan",
+    amount: "$99",
+    MAmount: "$20",
+    text: "Up to 50% off on Yearly Plan",
+    Description:
+      "Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy all the features of the Premium Plan, along with 24/7 chat support and exclusive workshops.",
+  },
+];
