@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Logo } from "../../assets/images";
 import NavLinks from "../Navigation/NavLinks";
+import { FaBarsStaggered } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -19,6 +20,22 @@ const Navbar = () => {
               Nutritionist
             </h1>
           </NavLink>
+
+          {/* DROPDOWN */}
+          <div className="dropdown">
+            <label
+              tabIndex={0}
+              className="btn btn-white bg-white hover:bg-white lg:hidden"
+            >
+              <FaBarsStaggered className="h-6 w-6" />
+            </label>
+            <ul
+              tabIndex={0}
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-red-500 rounded-box w-52"
+            >
+              <NavLinks />
+            </ul>
+          </div>
         </div>
 
         <div className="navbar-end hidden lg:flex">

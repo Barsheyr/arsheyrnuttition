@@ -209,6 +209,54 @@ export const CompanyAchievements = [
   },
 ];
 
+export const pricingPageCards = [
+  {
+    id: "1",
+    title: "Basic Plan",
+    amount: "$49",
+    MAmount: "$5",
+    text: "Up to 50% off on Yearly Plan",
+    Description:
+      "Personalized nutrition plan tailored to your goals and dietary preferences.",
+    Description2:
+      "Access to our mobile app for convenient meal tracking and progress monitoring.",
+    Description3: "Email support to address your questions and concerns.",
+    Description4:
+      "Regular check-ins with a dedicated nutritionist to review your progress and provide guidance..",
+  },
+  {
+    id: "2",
+    title: "Premium Plan",
+    amount: "$79",
+    MAmount: "$15",
+    text: "Up to 50% off on Yearly Plan",
+    Description: "All the features included in the Basic Plan.",
+    Description2:
+      "One-on-one video consultations with your dedicated nutritionist for more personalized guidance and support.",
+    Description3: "Recipe recommendations and meal planning assistance.",
+    Description4:
+      "Priority email support for quicker responses to your inquiries..",
+    Description5:
+      "Educational resources and guides to deepen your understanding of nutrition and healthy habits.",
+  },
+  {
+    id: "3",
+    title: "Ultimate Plan",
+    amount: "$99",
+    MAmount: "$20",
+    text: "Up to 50% off on Yearly Plan",
+    Description: "All the features included in the Plus Plan.",
+    Description2:
+      "Unlimited access to video consultations with your dedicated nutritionist for ongoing support and accountability.",
+    Description3:
+      "Advanced progress tracking tools to monitor your weight, body measurements, and fitness goals.",
+    Description4:
+      "Customized meal plans and recipe suggestions based on your preferences and nutritional needs.",
+    Description5: "Priority email and phone support for immediate assistance.",
+    Description6:
+      "The Premium Plan is designed for individuals who are committed to achieving significant results and require the highest level of support and personalization.",
+  },
+];
 export const pricingCards = [
   {
     id: "1",
@@ -227,6 +275,8 @@ export const pricingCards = [
     text: "Up to 50% off on Yearly Plan",
     Description:
       "Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you'll receive video consultations, priority support, and personalized recipe recommendations.",
+    Description2:
+      "Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you'll receive video consultations, priority support, and personalized recipe recommendations.",
   },
   {
     id: "3",
@@ -235,6 +285,10 @@ export const pricingCards = [
     MAmount: "$20",
     text: "Up to 50% off on Yearly Plan",
     Description:
+      "Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy all the features of the Premium Plan, along with 24/7 chat support and exclusive workshops.",
+    Description2:
+      "Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy all the features of the Premium Plan, along with 24/7 chat support and exclusive workshops.",
+    Description3:
       "Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy all the features of the Premium Plan, along with 24/7 chat support and exclusive workshops.",
   },
 ];
