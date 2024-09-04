@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-darkGreen25 align-element flex flex-col lg:flex-row items-center justify-between py-10 mt-10 rounded-md">
+      <div className="bg-darkGreen25 px-20 align-element flex flex-col lg:flex-row items-center justify-between py-10 mt-10 rounded-md">
         <div className="flex flex-col lg:flex-row  justify-between gap-10">
           <div className="flex items-center gap-3 border border-green-700 p-2 rounded-md">
             <MdEmail />

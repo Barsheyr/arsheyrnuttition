@@ -8,9 +8,12 @@ const Navbar = () => {
   return (
     <nav className="mt-5">
       <div className="navbar align-element">
-        <div className="navbar-start flex items-center gap-20 py-2">
+        <div className="navbar-start py-2">
           {/* Title */}
-          <NavLink to="/" className="flex flex-row items-center gap-2">
+          <NavLink
+            to="/"
+            className="hidden lg:flex flex-row items-center gap-2 order-2"
+          >
             <img
               src={Logo}
               alt=""

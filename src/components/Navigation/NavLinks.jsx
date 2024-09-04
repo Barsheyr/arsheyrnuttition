@@ -1,10 +1,11 @@
 const links = [
-  { id: 1, url: "/about", text: "About Us" },
-  { id: 2, url: "/team", text: "Team" },
-  { id: 3, url: "/process", text: "Process" },
-  { id: 4, url: "/pricing", text: "Pricing" },
-  { id: 5, url: "/blog", text: "Blog" },
-  { id: 6, url: "/contact", text: "Contact Us" },
+  { id: 1, url: "/", text: "Home" },
+  { id: 2, url: "/about", text: "About Us" },
+  { id: 3, url: "/team", text: "Team" },
+  { id: 4, url: "/process", text: "Process" },
+  { id: 5, url: "/pricing", text: "Pricing" },
+  { id: 6, url: "/blog", text: "Blog" },
+  { id: 7, url: "/contact", text: "Contact Us" },
 ];
 import { NavLink } from "react-router-dom";
 
