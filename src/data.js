@@ -23,6 +23,7 @@ import AboutPic7 from "../src/assets/images/AboutPic7.jpg";
 import AboutPic8 from "../src/assets/images/AboutPic8.jpg";
 import AboutPic9 from "../src/assets/images/AboutPic9.jpg";
 import AboutPic10 from "../src/assets/images/AboutPic10.jpg";
+import { FcCheckmark } from "react-icons/fc";
 
 export const FeatureCards = [
   {
@@ -216,6 +217,7 @@ export const pricingPageCards = [
     amount: "$49",
     MAmount: "$5",
     text: "Up to 50% off on Yearly Plan",
+    Mtext: "Up to 50% off on Monthly Plan",
     Description:
       "Personalized nutrition plan tailored to your goals and dietary preferences.",
     Description2:
@@ -223,6 +225,9 @@ export const pricingPageCards = [
     Description3: "Email support to address your questions and concerns.",
     Description4:
       "Regular check-ins with a dedicated nutritionist to review your progress and provide guidance..",
+    Description5: "NIL",
+    Description6: "NIL",
+    tick: FcCheckmark,
   },
   {
     id: "2",
@@ -230,6 +235,7 @@ export const pricingPageCards = [
     amount: "$79",
     MAmount: "$15",
     text: "Up to 50% off on Yearly Plan",
+    Mtext: "Up to 50% off on Monthly Plan",
     Description: "All the features included in the Basic Plan.",
     Description2:
       "One-on-one video consultations with your dedicated nutritionist for more personalized guidance and support.",
@@ -238,6 +244,7 @@ export const pricingPageCards = [
       "Priority email support for quicker responses to your inquiries..",
     Description5:
       "Educational resources and guides to deepen your understanding of nutrition and healthy habits.",
+    Description6: "NIL.",
   },
   {
     id: "3",
@@ -245,6 +252,7 @@ export const pricingPageCards = [
     amount: "$99",
     MAmount: "$20",
     text: "Up to 50% off on Yearly Plan",
+    Mtext: "Up to 50% off on Monthly Plan",
     Description: "All the features included in the Plus Plan.",
     Description2:
       "Unlimited access to video consultations with your dedicated nutritionist for ongoing support and accountability.",
@@ -264,6 +272,7 @@ export const pricingCards = [
     amount: "$49",
     MAmount: "$5",
     text: "Up to 50% off on Yearly Plan",
+    Mtext: "Up to 50% off on Monthly Plan",
     Description:
       "Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.",
   },
@@ -273,6 +282,7 @@ export const pricingCards = [
     amount: "$79",
     MAmount: "$15",
     text: "Up to 50% off on Yearly Plan",
+    Mtext: "Up to 50% off on Monthly Plan",
     Description:
       "Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you'll receive video consultations, priority support, and personalized recipe recommendations.",
     Description2:
@@ -284,6 +294,7 @@ export const pricingCards = [
     amount: "$99",
     MAmount: "$20",
     text: "Up to 50% off on Yearly Plan",
+    Mtext: "Up to 50% off on Monthly Plan",
     Description:
       "Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy all the features of the Premium Plan, along with 24/7 chat support and exclusive workshops.",
     Description2:

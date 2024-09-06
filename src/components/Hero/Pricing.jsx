@@ -77,7 +77,7 @@ const Pricing = () => {
       ) : (
         <div className="grid lg:grid-cols-3 gap-10 mt-20 rounded-lg">
           {pricingCards.map((pricingCard, index) => {
-            const { id, title, amount, text, Description, MAmount } =
+            const { id, title, amount, Mtext, Description, MAmount } =
               pricingCard;
 
             return (
@@ -85,9 +85,9 @@ const Pricing = () => {
                 <div className="rounded-md shadow-md bg-green90 lg:p-10 p-5 space-y-10">
                   <div>
                     <h2 className="text-3xl font-bold">{title}</h2>
-                    <p className=""> {text} </p>
+                    <p className="text-black"> {Mtext} </p>
                   </div>
-                  <p className="text-sm"> {Description} </p>
+                  <p className="text-sm "> {Description} </p>
 
                   <p className="lg:text-5xl text-xl font-bold">
                     {MAmount}
