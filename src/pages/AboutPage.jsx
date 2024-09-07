@@ -37,7 +37,7 @@ const AboutPage = () => {
       <AboutAchievement />
 
       {/* call to action */}
-      <div className="bg-green90 lg:p-20 p-10 rounded-lg">
+      <div className="bg-green90 lg:p-20 p-10 rounded-lg mb-20 ">
         <div className="flex lg:flex-row flex-col lg:items-center items-start justify-between">
           <div className="flex flex-col gap-5">
             <h1 className="text-3xl font-semibold">

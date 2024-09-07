@@ -5,7 +5,7 @@ const OurStory = () => {
   return (
     <div className="bg-green95 py-20 mt-20 font-primary">
       <div className="text-center lg:px-20 space-y-5">
-        <h1 className="text-6xl font-bold"> Our Story </h1>
+        <h1 className="text-5xl font-bold"> Our Story </h1>
         <p>
           Welcome to Nutritionist, your partner in achieving optimal health
           through personalized nutrition coaching. Our certified nutritionists

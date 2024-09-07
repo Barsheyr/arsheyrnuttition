@@ -6,11 +6,11 @@ const ProcessPage = () => {
   return (
     <section className="align-element font-primary">
       <div>
-        <div className="mt-20 flex flex-col text-center items-center space-y-10 py-20 bg-green95 p-10 border rounded-md bg-over">
+        <div className="mt-20 flex flex-col text-center items-center space-y-10 py-20 bg-green95 lg:px-10 px-5 border rounded-md bg-over">
           <div className="bg-overview">
             <img src={TeamIcon} alt="" />
           </div>
-          <h1 className="text-5xl font-bold">
+          <h1 className="lg:text-5xl text-3xl font-bold">
             Your Journey to Health and Wellness
           </h1>
           <p>
@@ -26,7 +26,7 @@ const ProcessPage = () => {
 
       <div className="py-20">
         <div className="text-center space-y-5">
-          <h1 className="text-6xl font-semibold"> How It Works </h1>
+          <h1 className="lg:text-5xl text-3xl font-semibold"> How It Works </h1>
           <p className="lg:px-[15%]">
             We provide a step-by-step guide on how to get started on your
             journey towards better health and nutrition. We are here to simplify
@@ -65,75 +65,110 @@ const ProcessPage = () => {
                 <div key={id}>
                   <div className="grid lg:grid-cols-2 gap-10 py-20">
                     {/* 1 */}
-                    <div className="relative">
+                    <div>
                       <h1 className="text-9xl font-black text-darkGreen30">
-                        {" "}
                         01
                       </h1>
-                      <div className="bg-green90 p-10 rounded-lg grid grid-rows- absolute -bottom-10">
+                      <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
                         <div className="flex items-center gap-5">
                           <img src={cardOnePic} alt="" className="rounded-md" />
                           <h3 className="text-grey15 font-medium text-2xl">
                             {cardOneT}
                           </h3>
                         </div>
-
-                        <p> {cardOneP} </p>
+                        <p className=""> {cardOneP} </p>
                       </div>
                     </div>
 
                     {/* 2 */}
-                    <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
-                      <div className="flex items-center gap-5">
-                        <img src={cardTwoPic} alt="" className="rounded-md" />
-                        <h3 className="text-grey15 font-medium text-2xl">
-                          {cardTwoT}
-                        </h3>
+                    <div>
+                      <h1 className="text-9xl font-black text-darkGreen30">
+                        02
+                      </h1>
+                      <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
+                        <div className="flex items-center gap-5">
+                          <img src={cardTwoPic} alt="" className="rounded-md" />
+                          <h3 className="text-grey15 font-medium text-2xl">
+                            {cardTwoT}
+                          </h3>
+                        </div>
+                        <p> {cardTwoP} </p>
                       </div>
-
-                      <p> {cardTwoP} </p>
                     </div>
+
                     {/* 3 */}
-                    <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
-                      <div className="flex items-center gap-5">
-                        <img src={cardThreePic} alt="" className="rounded-md" />
-                        <h3 className="text-grey15 font-medium text-2xl">
-                          {cardThreeT}
-                        </h3>
+                    <div>
+                      <h1 className="text-9xl font-black text-darkGreen30">
+                        03
+                      </h1>
+                      <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
+                        <div className="flex items-center gap-5">
+                          <img
+                            src={cardThreePic}
+                            alt=""
+                            className="rounded-md"
+                          />
+                          <h3 className="text-grey15 font-medium text-2xl">
+                            {cardThreeT}
+                          </h3>
+                        </div>
+                        <p className=""> {cardThreeP} </p>
                       </div>
-
-                      <p> {cardThreeP} </p>
                     </div>
+
                     {/* 4 */}
-                    <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
-                      <div className="flex items-center gap-5">
-                        <img src={cardFourPic} alt="" className="rounded-md" />
-                        <h3 className="text-grey15 font-medium text-2xl">
-                          {cardFourT}
-                        </h3>
+                    <div>
+                      <h1 className="text-9xl font-black text-darkGreen30">
+                        04
+                      </h1>
+                      <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
+                        <div className="flex items-center gap-5">
+                          <img
+                            src={cardFourPic}
+                            alt=""
+                            className="rounded-md"
+                          />
+                          <h3 className="text-grey15 font-medium text-2xl">
+                            {cardFourT}
+                          </h3>
+                        </div>
+                        <p className=""> {cardFourP} </p>
                       </div>
-                      <p> {cardFourP} </p>
                     </div>
-                    {/* 5 */}
-                    <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
-                      <div className="flex items-center gap-5">
-                        <img src={cardFivePic} alt="" className="rounded-md" />
-                        <h3 className="text-grey15 font-medium text-2xl">
-                          {cardFiveT}
-                        </h3>
-                      </div>
 
-                      <p> {cardFiveP} </p>
+                    {/* 5 */}
+                    <div>
+                      <h1 className="text-9xl font-black text-darkGreen30">
+                        05
+                      </h1>
+                      <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
+                        <div className="flex items-center gap-5">
+                          <img
+                            src={cardFivePic}
+                            alt=""
+                            className="rounded-md"
+                          />
+                          <h3 className="text-grey15 font-medium text-2xl">
+                            {cardFiveT}
+                          </h3>
+                        </div>
+                        <p className=""> {cardFiveP} </p>
+                      </div>
                     </div>
                     {/* 6 */}
-                    <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
-                      <div className="flex items-center gap-5">
-                        <img src={cardSixPic} alt="" className="rounded-md" />
-                        <h3 className="text-grey15 font-medium text-2xl">
-                          {cardSixT}
-                        </h3>
+                    <div>
+                      <h1 className="text-9xl font-black text-darkGreen30">
+                        06
+                      </h1>
+                      <div className="bg-green90 p-10 rounded-lg grid grid-rows-2">
+                        <div className="flex items-center gap-5">
+                          <img src={cardSixPic} alt="" className="rounded-md" />
+                          <h3 className="text-grey15 font-medium text-2xl">
+                            {cardSixT}
+                          </h3>
+                        </div>
+                        <p className=""> {cardSixP} </p>
                       </div>
-                      <p> {cardSixP} </p>
                     </div>
                   </div>
                 </div>

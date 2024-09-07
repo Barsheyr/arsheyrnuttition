@@ -105,7 +105,7 @@ const Tabs = () => {
               activeTab === tab.id && (
                 <div
                   key={tab.id}
-                  className="text-gray-700 grid lg:grid-cols-4 grid-cols-2 gap-20"
+                  className="text-gray-700 grid lg:grid-cols-4 grid-cols-1 gap-20"
                 >
                   <div className="relative">
                     <img src={tab.Img1} alt="" className="" />
