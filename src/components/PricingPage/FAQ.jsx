@@ -13,17 +13,17 @@ const FAQ = () => {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-3 gap-20  mb-20 px-10">
-        <div className="grid bg-green95 py-10 rounded-md border lg:px-20 px-10 lg:col-span-2">
+      <div className="grid lg:grid-cols-3 gap-20  mb-20 lg:px-10">
+        <div className="grid bg-green95 py-10 rounded-md border lg:px-20 px-5 lg:col-span-2">
           <div className="space-y-10">
             <div className="collapse collapse-plus bg-white99 border border-gray-300 p-2">
               <input type="radio" name="my-accordion-2" defaultChecked />
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title lg:text-xl font-medium">
                 What is personalized nutrition coaching?
               </div>
               <div className="collapse-content">
                 <div className="w-[100%] h-0.5 bg-gray-200 my-5"></div>
-                <p>
+                <p className="text-sm">
                   Personalized nutrition coaching involves creating a customized
                   nutrition plan based on your unique goals, preferences, and
                   dietary requirements. Our team of experts will work closely
@@ -35,12 +35,12 @@ const FAQ = () => {
             {/* 2*/}
             <div className="collapse collapse-plus bg-white99 border border-gray-300 p-2">
               <input type="radio" name="my-accordion-2" defaultChecked />
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title lg:text-xl font-medium">
                 How can nutrition coaching help me lose weight?
               </div>
               <div className="collapse-content">
                 <div className="w-[100%] h-0.5 bg-gray-200 my-5"></div>
-                <p>
+                <p className="text-sm">
                   Nutrition coaching can help you lose weight by providing
                   personalized guidance on healthy eating habits, portion
                   control, and balanced meal planning. A coach will help you
@@ -53,12 +53,12 @@ const FAQ = () => {
             {/* 3 */}
             <div className="collapse collapse-plus bg-white99 border border-gray-300 p-2">
               <input type="radio" name="my-accordion-2" defaultChecked />
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title lg:text-xl font-medium">
                 Can I still enjoy my favorite foods while on a nutrition plan?
               </div>
               <div className="collapse-content">
                 <div className="w-[100%] h-0.5 bg-gray-200 my-5"></div>
-                <p>
+                <p className="text-sm">
                   Yes, you can still enjoy your favorite foods while on a
                   nutrition plan. The key is moderation and finding healthier
                   alternatives or portions that fit within your goals. Balancing
@@ -70,12 +70,12 @@ const FAQ = () => {
             {/* 4 */}
             <div className="collapse collapse-plus bg-white99 border border-gray-300 p-2">
               <input type="radio" name="my-accordion-2" defaultChecked />
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title lg:text-xl font-medium">
                 How often will I have contact with my nutritionist?
               </div>
               <div className="collapse-content">
                 <div className="w-[100%] h-0.5 bg-gray-200 my-5"></div>
-                <p>
+                <p className="text-sm">
                   You can expect regular contact with your nutritionist,
                   typically through weekly or bi-weekly check-ins, depending on
                   your personalized plan. These may include in-person meetings,
@@ -88,12 +88,12 @@ const FAQ = () => {
             {/* 5 */}
             <div className="collapse collapse-plus bg-white99 border border-gray-300 p-2">
               <input type="radio" name="my-accordion-2" defaultChecked />
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title lg:text-xl font-medium">
                 How long will it take to see results?
               </div>
               <div className="collapse-content">
                 <div className="w-[100%] h-0.5 bg-gray-200 my-5"></div>
-                <p>
+                <p className="text-sm">
                   The time it takes to see results can vary depending on the
                   specific situation or effort involved. In most cases, you may
                   start noticing small improvements within a few weeks, while
@@ -105,13 +105,13 @@ const FAQ = () => {
             {/* 6 */}
             <div className="collapse collapse-plus bg-white99 border border-gray-300 p-2">
               <input type="radio" name="my-accordion-2" defaultChecked />
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title lg:text-xl font-medium">
                 Are the meal plans and recipes provided suitable for vegetarians
                 or vegans?
               </div>
               <div className="collapse-content">
                 <div className="w-[100%] h-0.5 bg-gray-200 my-5"></div>
-                <p>
+                <p className="text-sm">
                   Yes, the meal plans and recipes can be tailored to suit
                   vegetarians and vegans. Many options include plant-based
                   ingredients or can be easily modified by substituting animal

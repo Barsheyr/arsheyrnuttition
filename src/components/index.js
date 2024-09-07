@@ -11,3 +11,4 @@ export { default as AboutAchievement } from "./AboutPage/AboutAchievements";
 export { default as TeamTabs } from "./TeamMembers/Tabs";
 export { default as FAQ } from "./PricingPage/FAQ";
 export { default as Vendor } from "./PricingPage/VnedorForm";
+export { default as BlogTabs } from "./BlogPage/Tabs";
