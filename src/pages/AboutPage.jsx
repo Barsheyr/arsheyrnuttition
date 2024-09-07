@@ -9,9 +9,9 @@ const AboutPage = () => {
         <img src={aboutHero} alt="" />
       </div>
 
-      <div className="flex flex-col text-center items-center space-y-10 py-20 bg-green95 p-10 border rounded-md">
+      <div className="flex flex-col text-center items-center space-y-10 py-20 bg-green95 lg:p-10 px-5 border rounded-md">
         <h1 className="text-4xl font-bold">Welcome to Nutritionist</h1>
-        <p>
+        <p className="text-sm">
           Your trusted source for personalized nutrition coaching. Our mission
           is to help you achieve your weight loss and health goals through
           tailored nutrition plans and expert guidance. We understand that every
@@ -37,7 +37,7 @@ const AboutPage = () => {
       <AboutAchievement />
 
       {/* call to action */}
-      <div className="bg-green90 p-20 rounded-lg my-20">
+      <div className="bg-green90 lg:p-20 p-10 rounded-lg">
         <div className="flex lg:flex-row flex-col lg:items-center items-start justify-between">
           <div className="flex flex-col gap-5">
             <h1 className="text-3xl font-semibold">
@@ -50,7 +50,7 @@ const AboutPage = () => {
               towards optimal health and well-being.
             </p>
           </div>
-          <div className="btn border-none bg-primary text-white mt-5 hover:bg-orange70">
+          <div className="btn border-none bg-darkGreen15 text-white mt-5 hover:bg-green70 hover:text-black">
             <p>Join Now </p>
           </div>
         </div>

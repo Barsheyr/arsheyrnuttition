@@ -15,7 +15,7 @@ const Testimonials = () => {
   return (
     <section className="align-element mt-20 py-20">
       <div className="text-center space-y-5">
-        <h1 className="text-6xl font-semibold"> Our Testimonials </h1>
+        <h1 className="text-5xl font-semibold"> Our Testimonials </h1>
         <p className="lg:px-44">
           Our satisfied clients share their success stories and experiences on
           their journey to better health and well-being.

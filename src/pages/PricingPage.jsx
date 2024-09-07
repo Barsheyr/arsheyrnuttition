@@ -162,7 +162,7 @@ const PricingPage = () => {
         )}
       </div>
 
-      <div className="bg-green95 p-10 rounded-md">
+      <div className="bg-green95 p-10 rounded-md hidden lg:block">
         <div className="grid grid-cols-5 gap-10">
           <h1 className="bg-darkGreen15 text-white col-span-2 py-3 px-10 rounded-md">
             Features

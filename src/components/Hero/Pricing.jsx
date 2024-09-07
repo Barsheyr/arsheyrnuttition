@@ -10,12 +10,12 @@ const Pricing = () => {
   };
 
   return (
-    <div className="align-element py-20 mt-10">
+    <div className="align-element py-20">
       <div>
         <div className="flex flex-col lg:items-center items-start justify-between">
           <div className="flex flex-col gap-5 text-center">
             <h1 className="text-5xl font-semibold"> Our Pricing </h1>
-            <p className="font-normal text-base px-[20%] text-grey35">
+            <p className="font-normal text-base lg:px-[20%] text-grey35">
               We outline our flexible and affordable options to support you on
               your journey to optimal health and nutrition. We believe that
               everyone deserves access to personalized nutrition guidance and
@@ -23,7 +23,7 @@ const Pricing = () => {
             </p>
           </div>
 
-          <div className="flex flex-row items-center bg-green95 border border-5 rounded-md p-3 mt-10">
+          <div className="flex flex-row items-center self-center bg-green95 border border-5 rounded-md p-3 mt-10">
             <button
               className={`px-4 py-2 font-semibold rounded-md ${
                 isHourly ? "bg-primary text-white" : "bg-darkGreen15 text-white"
@@ -43,7 +43,7 @@ const Pricing = () => {
               Yearly
             </button>
           </div>
-          <p className="mt-5 text-xl"> Save 50% Weekly </p>
+          <p className="mt-5 lg:text-xl  self-center"> Save 50% Weekly </p>
         </div>
       </div>
 
