@@ -5,6 +5,10 @@ import Team3 from "../../assets/images/blog3.jpg";
 import Team4 from "../../assets/images/blog4.jpg";
 import Team5 from "../../assets/images/blog5.jpg";
 import Team6 from "../../assets/images/blog6.jpg";
+import Team7 from "../../assets/images/blog7.jpg";
+import Team8 from "../../assets/images/blog8.jpg";
+import Team9 from "../../assets/images/blog9.jpg";
+import Team10 from "../../assets/images/blog10.jpg";
 
 const TabsComponent = () => {
   const [activeTab, setActiveTab] = useState("all");
@@ -71,10 +75,46 @@ const TabsComponent = () => {
         "Get a comprehensive overview of macronutrients and their role in a balanced diet. Discover the best sources of each macronutrient and how to incorporate them into your meals.",
       Header: "Building a Home Workout Routine: Tips and Best Practices",
     },
-    { id: 7, type: "Mindset", name: "Mindset" },
-    { id: 8, type: "Mindset", name: "Mindset" },
-    { id: 9, type: "Recipes", name: "Recipes" },
-    { id: 10, type: "Recipes", name: "Recipes" },
+    {
+      id: 7,
+      type: "Mindset",
+      name: "Mindset",
+      Img1: Team7,
+      Title: "Mindset and Motivation",
+      Description:
+        "Explore techniques for cultivating a positive body image and improving self-confidence. Learn how to embrace your body and appreciate your unique qualities.",
+      Header: "Developing a Positive Body Image and Self-Confidence",
+    },
+    {
+      id: 8,
+      type: "Mindset",
+      name: "Mindset",
+      Img1: Team8,
+      Title: "Mindset and Motivation",
+      Description:
+        "Identify self-sabotaging behaviors and learn strategies to overcome them. Discover how to shift your mindset and develop healthier habits.",
+      Header: "Overcoming Self-Sabotage in Your Weight Loss Journey",
+    },
+    {
+      id: 9,
+      type: "Recipes",
+      name: "Recipes",
+      Img1: Team9,
+      Title: "Recipes and Meal Planning",
+      Description:
+        "Discover a variety of tasty and nutritious lunch options that are perfect for those with busy schedules. These recipes are quick to make and packed with essential nutrients.",
+      Header: "Healthy and Flavorful Lunch Ideas for a Busy Lifestyle",
+    },
+    {
+      id: 10,
+      type: "Recipes",
+      name: "Recipes",
+      Img1: Team10,
+      Title: "Recipes and Meal Planning",
+      Description:
+        "Discover a variety of tasty and nutritious lunch options that are perfect for those with busy schedules. These recipes are quick to make and packed with essential nutrients.",
+      Header: "Healthy and Flavorful Lunch Ideas for a Busy Lifestyle",
+    },
   ];
 
   // Filtering items based on the active tab
@@ -173,14 +213,42 @@ const TabsComponent = () => {
         ));
       case "Mindset":
         return Mindset.map((item) => (
-          <div key={item.id} className="p-4 bg-gray-100 rounded-lg mb-2">
-            {item.name}
+          <div key={item.id} className="p-4 bg-green95 rounded-lg mb-2">
+            <div className="flex flex-col border border-green70 p-5">
+              <p className="font-semibold text-xl mb-5"> {item.Title} </p>
+              <img
+                src={item.Img1}
+                alt=""
+                className="rounded-md self-end lg:w-[80%]"
+              />
+              <div className="flex lg:flex-row flex-col lg:items-center items-start justify-between mt-10 gap-5">
+                <div className="space-y-5">
+                  <h1 className="font-bold lg:text-2xl">{item.Header}</h1>
+                  <p className="text-sm"> {item.Description} </p>
+                </div>
+                <div className="btn lg:btn-md btn-sm"> Read Now</div>
+              </div>
+            </div>
           </div>
         ));
       case "Recipes":
         return Recipes.map((item) => (
-          <div key={item.id} className="p-4 bg-gray-100 rounded-lg mb-2">
-            {item.name}
+          <div key={item.id} className="p-4 bg-green95 rounded-lg mb-2">
+            <div className="flex flex-col border border-green70 p-5">
+              <p className="font-semibold text-xl mb-5"> {item.Title} </p>
+              <img
+                src={item.Img1}
+                alt=""
+                className="rounded-md self-end lg:w-[80%]"
+              />
+              <div className="flex lg:flex-row flex-col lg:items-center items-start justify-between mt-10 gap-5">
+                <div className="space-y-5">
+                  <h1 className="font-bold lg:text-2xl">{item.Header}</h1>
+                  <p className="text-sm"> {item.Description} </p>
+                </div>
+                <div className="btn lg:btn-md btn-sm"> Read Now</div>
+              </div>
+            </div>
           </div>
         ));
       default:
