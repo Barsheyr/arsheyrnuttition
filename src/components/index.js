@@ -12,3 +12,4 @@ export { default as TeamTabs } from "./TeamMembers/Tabs";
 export { default as FAQ } from "./PricingPage/FAQ";
 export { default as Vendor } from "./PricingPage/VnedorForm";
 export { default as BlogTabs } from "./BlogPage/Tabs";
+export { default as BlogTCom } from "./BlogPage/TabsComponent";

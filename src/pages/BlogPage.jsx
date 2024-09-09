@@ -1,7 +1,7 @@
 import React from "react";
 import { TeamIcon } from "../assets/images";
 import BlogsTabs from "../components/BlogPage/Tabs";
-import { BlogTabs } from "../components";
+import { BlogTabs, BlogTCom } from "../components";
 
 const BlogPage = () => {
   return (
@@ -24,7 +24,8 @@ const BlogPage = () => {
         </div>
 
         <div>
-          <BlogTabs />
+          {/* <BlogTabs /> */}
+          <BlogTCom />
         </div>
       </div>
     </section>
