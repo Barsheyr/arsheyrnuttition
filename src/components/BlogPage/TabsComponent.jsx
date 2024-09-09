@@ -133,8 +133,8 @@ const TabsComponent = () => {
     switch (activeTab) {
       case "all":
         return allItems.map((item) => (
-          <div key={item.id} className="p-4 bg-green95 rounded-lg mb-2">
-            <div className="flex flex-col border border-green70 p-5">
+          <div key={item.id} className="lg:p-4 bg-green95 rounded-lg mb-10">
+            <div className="flex flex-col border border-green70 p-5 rounded-md">
               <p className="font-semibold text-xl mb-5"> {item.Title} </p>
               <img
                 src={item.Img1}
@@ -153,8 +153,8 @@ const TabsComponent = () => {
         ));
       case "WeightLossTips":
         return WeightLossTips.map((item) => (
-          <div key={item.id} className="p-4 bg-green95 rounded-lg mb-2">
-            <div className="flex flex-col border border-green70 p-5">
+          <div key={item.id} className="lg:p-4 bg-green95 rounded-lg mb-10">
+            <div className="flex flex-col border border-green70 p-5 rounded-md">
               <p className="font-semibold text-xl mb-5"> {item.Title} </p>
               <img
                 src={item.Img1}
@@ -173,8 +173,8 @@ const TabsComponent = () => {
         ));
       case "HealthyEatings":
         return HealthyEatings.map((item) => (
-          <div key={item.id} className="p-4 bg-green95 rounded-lg mb-2">
-            <div className="flex flex-col border border-green70 p-5">
+          <div key={item.id} className="lg:p-4 bg-green95 rounded-lg mb-10">
+            <div className="flex flex-col border border-green70 p-5 rounded-md">
               <p className="font-semibold text-xl mb-5"> {item.Title} </p>
               <img
                 src={item.Img1}
@@ -193,8 +193,8 @@ const TabsComponent = () => {
         ));
       case "Fitness":
         return Fitness.map((item) => (
-          <div key={item.id} className="p-4 bg-green95 rounded-lg mb-2">
-            <div className="flex flex-col border border-green70 p-5">
+          <div key={item.id} className="lg:p-4 bg-green95 rounded-lg mb-10">
+            <div className="flex flex-col border border-green70 p-5 rounded-md">
               <p className="font-semibold text-xl mb-5"> {item.Title} </p>
               <img
                 src={item.Img1}
@@ -213,8 +213,8 @@ const TabsComponent = () => {
         ));
       case "Mindset":
         return Mindset.map((item) => (
-          <div key={item.id} className="p-4 bg-green95 rounded-lg mb-2">
-            <div className="flex flex-col border border-green70 p-5">
+          <div key={item.id} className="lg:p-4 bg-green95 rounded-lg mb-10">
+            <div className="flex flex-col border border-green70 p-5 rounded-md">
               <p className="font-semibold text-xl mb-5"> {item.Title} </p>
               <img
                 src={item.Img1}
@@ -233,7 +233,7 @@ const TabsComponent = () => {
         ));
       case "Recipes":
         return Recipes.map((item) => (
-          <div key={item.id} className="p-4 bg-green95 rounded-lg mb-2">
+          <div key={item.id} className="lg:p-4 bg-green95 rounded-lg mb-5">
             <div className="flex flex-col border border-green70 p-5">
               <p className="font-semibold text-xl mb-5"> {item.Title} </p>
               <img
@@ -322,7 +322,7 @@ const TabsComponent = () => {
         </button>
       </div>
 
-      <div className="grid lg:grid-cols-2 p-4 bg-green95 rounded-b-lg shadow-lg mt-20">
+      <div className="grid lg:grid-cols-2 lg:p-4 bg-green95 rounded-b-lg shadow-lg mt-20">
         {/* Render Items */}
         {renderItems()}
       </div>
