@@ -26,7 +26,7 @@ const PricingPage = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 mx-[30%] bg-green95 border border-5 rounded-md p-3 mt-10">
+      <div className="grid grid-cols-2 lg:mx-[30%] bg-green95 border border-5 rounded-md p-3 mt-10">
         <button
           className={`px-4 py-2 font-semibold rounded-md ${
             isHourly ? "bg-primary text-white" : "bg-darkGreen15 text-white"
