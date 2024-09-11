@@ -13,3 +13,5 @@ export { default as FAQ } from "./PricingPage/FAQ";
 export { default as Vendor } from "./PricingPage/VnedorForm";
 export { default as BlogTabs } from "./BlogPage/Tabs";
 export { default as BlogTCom } from "./BlogPage/TabsComponent";
+export { default as FormInput } from "./FormInput";
+export { default as SubmitBtn } from "./SubmitBtn";
